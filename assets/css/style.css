@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    margin-left: 5em; 
+}
+
+article {
+    display: inline-block;
+    margin-top: 3em;
+    max-width: 100%;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+section {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1em;
+}
+
+.carousel-caption {
+    background-color: black;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+footer div {
+    background-color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer a {
+    color: white;
+}
+
+footer i {
+    color: white;
+}

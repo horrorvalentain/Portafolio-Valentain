@@ -9,13 +9,16 @@
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/0e5787af4a.js" crossorigin="anonymous"></script>
+
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap" rel="stylesheet">
-
-    <!--FONTAWESOME-->
-    <script src="https://kit.fontawesome.com/0e5787af4a.js" crossorigin="anonymous"></script>
 
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -44,8 +47,8 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h4 class="card-title">Sobre mi</h4>
-              <h5>Diseñadora Gráfica</h5>
+              <h1 class="card-title">Sobre mi <i class="fa-solid fa-fire-flame-curved"></i></h1>
+              <h3>Diseñadora Gráfica</h3>
               <p class="card-text">Mis primeras experiencias en diseño estuvieron relacionadas con el mundo digital, siendo parte importante en el proceso de branding, diseño de interfaz, contenido y marketing digital de marcas de gran trayectoria y emergentes, siendo el diseño ux/ui el que ha llamado mayormente mi interés, lo que me ha llevado a especializarme en Figma y poco a poco acercarme al mundo del desarrollo web.
                 <br>
                 También hay tiempo para la creatividad. After Effects y Premiere se han convertido en herramientas, no solo de valor para mis proyectos sino también de recreación.</p>
@@ -55,6 +58,80 @@
       </div>
     </article>
 
+    <!--PROYECTS SLIDER-->
+    <section>
+      <h2>Mis primeros <i>desafíos</i> <i class="fa-solid fa-skull"></i></h2>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/curriculum.jpg" class="d-block w-100" alt="Curriculum Page Screenshoot">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desafío 1: Curriculum Vitae</h5>
+              <p>Construcción de mi primera página web, utilizando editor de código y etiquetas HTML.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./assets/images/landing-page.jpg" class="d-block w-100" alt="Landing Page Screenshoot">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desafío 2: Landing Page</h5>
+              <p>Implementación de estilos CSS para textos, colores y fondos para definir aspectos visuales de una interfaz web.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./assets/images/iguana.jpg" class="d-block w-100" alt="Iguana Page Screenshoot">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desafío 3: Iguana</h5>
+              <p>Implementación de displays y posicionamiento de textos e imágenes.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./assets/images/cuppon.jpg" class="d-block w-100" alt="Cuppon Page Screenshoot">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desafío 4: Cuppon</h5>
+              <p>Implementación de clases de Bootstrap a través de componentes card y formularios.</p>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+      <div>
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <p><i class="fa-brands fa-behance"></i> <a class="link-social-media" href="https://www.behance.net/vdsgner">Behance</a></p>
+            </div>
+            <div class="col">
+              <p><i class="fa-brands fa-linkedin-in"></i> <a class="link-social-media" href="https://www.linkedin.com/in/vdsgner">Linkedin</a></p>
+            </div>
+            <div class="col">
+              <p><i class="fa-brands fa-instagram"></i> <a class="link-social-media" href="https://www.instagram.com/venusa_rt/">Instagram</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
