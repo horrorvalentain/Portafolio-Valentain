@@ -32,6 +32,11 @@ section h2 {
     margin-bottom: 3em;
 }
 
+button a {
+    text-decoration: none;
+    color:black;
+}
+
 footer div {
     background-color: black;
     padding-top: 0.5em;
